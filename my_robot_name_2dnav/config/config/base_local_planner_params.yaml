@@ -1,0 +1,36 @@
+TrajectoryPlannerROS:
+  max_vel_x: 0.4
+  min_vel_x: 0.2
+  max_vel_theta: 1.0
+  min_vel_theta: -1.0
+  min_in_place_vel_theta: 0.4
+
+  acc_lim_theta: 3.2
+  acc_lim_x: 2.5
+  acc_lim_y: 2.5
+
+  holonomic_robot: false
+  sim_time: 2.0 # before 1.0
+
+  cost_factor: 0.55
+  neutral_cost: 66
+  lethal_cost: 253
+
+  dwa: true
+  vx_samples: 10
+  vtheta_samples: 20
+  controller_frequency: 20
+  
+
+  oscillation_reset_dist: 0.05
+
+  
+  meter_scoring: true
+  publish_cost_grid: true
+
+  yaw_goal_tolerance: 0.2
+  xy_goal_tolerance: 0.2
+#path_distance_bias:
+#goal_distance_bias: 
+  
+
