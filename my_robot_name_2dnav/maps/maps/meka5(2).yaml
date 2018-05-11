@@ -1,0 +1,7 @@
+image: meka5(2).pgm
+resolution: 0.070000
+origin: [-35.875000, -35.875000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
