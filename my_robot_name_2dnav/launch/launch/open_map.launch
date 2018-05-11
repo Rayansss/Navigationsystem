@@ -1,0 +1,9 @@
+<launch>
+
+  <master auto="start"/>
+
+  <!-- Run the map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find my_robot_name_2dnav)/maps/kart_for_resultat2.yaml">
+</node>
+
+</launch>
