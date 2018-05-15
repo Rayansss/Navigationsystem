@@ -17,13 +17,13 @@ https://github.com/pololu/Dual-VNH5019-Motor-Shield
 
 Changes in ros_arduino_brigde:
 
--In the motor_driver.ino sketch, the PWM frequency has been overided from 20 KHz to 488.92 Hz in the ros_arduino_brigde package.
+- In the motor_driver.ino sketch, the PWM frequency has been overided from 20 KHz to 488.92 Hz in the ros_arduino_brigde package.
 
--PId controller bug fixed In the diff_controller.h.
+- PId controller bug fixed In the diff_controller.h.
 
--The encoder pin "Pd2" has been changed to "Pd5" in the encoder_driver.h.
+- The encoder pin "Pd2" has been changed to "Pd5" in the encoder_driver.h.
 
--Due to changes in enocder pins, the encoder_driver.ino sketch was fixed to achieve correct amount of pulses/revolution.    
+- Due to changes in enocder pins, the encoder_driver.ino sketch was fixed to achieve correct amount of pulses/revolution.    
 
  
 
